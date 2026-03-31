@@ -59,6 +59,7 @@ function agregarUsuario() {
 }
 
 function editarUsuario(index) {
+ alert("Editando usuario");
   const user = usuarios[index];
   document.getElementById("nombre").value = user.nombre;
   document.getElementById("correo").value = user.correo;
