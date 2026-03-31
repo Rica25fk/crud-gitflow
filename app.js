@@ -66,6 +66,7 @@ function editarUsuario(index) {
 }
 
 function eliminarUsuario(index) {
+    alert("Eliminando usuario"); 
   if (confirm("¿Seguro que deseas eliminar este usuario?")) {
     usuarios.splice(index, 1);
     guardarDatos();
