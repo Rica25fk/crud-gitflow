@@ -35,7 +35,7 @@ function agregarUsuario() {
   const correo = document.getElementById("correo").value.trim();
 
   if (!nombre || !correo) {
-    alert("Todos los campos son obligatorios");
+    alert("Por favor completa todos los campos correctamente");
     return;
   }
 
